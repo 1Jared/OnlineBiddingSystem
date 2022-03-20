@@ -5,7 +5,7 @@ function headhtml(){
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 	
-	<title>Bidding Zone - Administrator</title>
+	<title>Bid Caller</title>
 
 	<link type="text/css" href="./style.css" rel="stylesheet" /> 
 	<script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>	

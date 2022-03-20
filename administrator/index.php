@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 	
-	<title>Bidding Zone - Administrator</title>
+	<title>Bid Caller</title>
 	
 	<link type="text/css" href="./style.css" rel="stylesheet" /> 
 <meta charset="UTF-8"></head>
@@ -19,7 +19,7 @@
 			<div id="primary_right">
 				<div class="inners">
 					
-					<h1>LOGIN ADMINISTRATOR</h1>
+					<h1>LOGIN BID CALLER</h1>
 						<form method="post" action="">
 
 						<div class="two_third column">
@@ -59,7 +59,7 @@
 					$_SESSION['isvalid'] = "true";
 					$ip_add = $_SERVER['REMOTE_ADDR'];
 					$browser = $_SERVER['HTTP_USER_AGENT'];
-					$query_login_info = mysqli_query($con,"INSERT INTO adloginfo (ip,browser,date) VALUES ('$ip_add','$browser',NOW())") or die (mysqli_error());
+					$query_login_info = mysqli_query($con,"INSERT INTO adloginfo (ip,browser,date) VALUES ('$ip_add','$browser',NOW())") or die (mysqli_error($con));
 					header("location:../administrator/notifications.php");
 				}
 			}

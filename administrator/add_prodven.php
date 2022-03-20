@@ -1,7 +1,4 @@
 <?php
-ini_set('display_errors',1);
-ini_set('display_startup_errors',1);
-error_reporting(E_ALL);
 session_start();
 if($_SESSION['isvalid'] != "true"){
 	header("location:index.php");
@@ -67,7 +64,7 @@ if (isset($_POST['prodsave'])){
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
 	
-	<title>Bidding Zone - Administrator</title>
+	<title>Bid Caller</title>
 
 	<link type="text/css" href="./style.css" rel="stylesheet" />
     
@@ -101,7 +98,7 @@ if (isset($_POST['prodsave'])){
                         <li><a href="bids.php" class="dashboard"><img src="icons/2.png" alt /><span class="current">Bids</span></a></li>					
 						<li class="current"><a href="#"><img src="icons/36.png" alt /><span>Products</span></a>
 							<ul class='showoff'>
-								<li><a href="add_prodven.php">New Product</a></li>
+								<li><a href="add_prodven.php">Post New Product</a></li>
 								<li><a href="addcategory.php">New Product Category</a></li>
 							</ul>
 						</li>						
@@ -117,7 +114,7 @@ if (isset($_POST['prodsave'])){
 			<div id="primary_right">
 				<div class="inner">
 					
-					<h1>Welcome Administrator</h1>
+					<h1>Welcome Bid Caller</h1>
 
 
 						<div class="two_third column">

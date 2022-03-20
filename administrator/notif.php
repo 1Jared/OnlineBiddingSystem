@@ -41,7 +41,7 @@ error_reporting(E_ALL);
 			</div> <!-- sidebar end -->
 
 			<div id="primary_right">
-			<center><h1><br />Welcome Administrator</h1></center>
+			<center><h1><br />Welcome Bid Caller</h1></center>
 				<div class="inner">
 				<!--join member and products-->
 				<?php 
@@ -110,7 +110,7 @@ error_reporting(E_ALL);
 							<div class="notif id<?php echo $stat['bidid']; ?>" id="<?php echo $stat['bidid']; ?>">
 							<p>
 							<span><?php echo $stat['lastname'].", " .$stat['firstname']; ?></span>
-							Has Placed <strong>Php <?php echo $stat['bidamount']; ?></strong> On <?php echo $stat['prodname']; ?> last <strong><?php echo $stat['biddatetime']; ?></strong>
+							Has Placed <strong>Ksh <?php echo $stat['bidamount']; ?></strong> On <?php echo $stat['prodname']; ?> last <strong><?php echo $stat['biddatetime']; ?></strong>
 							</p>
 							</div>
 							<?php } ?>

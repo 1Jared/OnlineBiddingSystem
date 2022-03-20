@@ -93,7 +93,7 @@ require ("../db.php");
 			WHILE($stat = mysqli_fetch_array($bids_stat)){
 				echo 
 					"<tr>
-                        <td align='center'>".$stat['lastname'].", " .$stat['firstname']."Has Placed <strong>Php</strong>".$stat['bidamount']." On Item ".$stat['prodname']."</td>
+                        <td align='center'>".$stat['lastname'].", " .$stat['firstname']."Has Placed <strong>Ksh</strong>".$stat['bidamount']." On Item ".$stat['prodname']."</td>
                         <td>".$stat['biddatetime']."</td>
                         <td align='center'><img src='./icons/116.png' alt = '0' width='24' height='22'/></td>
 					</tr>";

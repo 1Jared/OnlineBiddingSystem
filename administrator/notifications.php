@@ -38,7 +38,7 @@
 			</div> <!-- sidebar end -->
 
 			<div id="primary_right">
-			<center><h1><br />Welcome Administrator</h1></center>
+			<center><h1><br />Welcome Bid Caller</h1></center>
 				<div class="inner">
 				<!--join member and products-->
 				<?php 

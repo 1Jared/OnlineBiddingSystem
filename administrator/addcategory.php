@@ -34,7 +34,7 @@
 			<div id="primary_right">
 				<div class="inner">
 					
-					<h1>Welcome Administrator</h1>
+					<h1>Welcome Bid Caller</h1>
 
 
 						<div class="two_third column">

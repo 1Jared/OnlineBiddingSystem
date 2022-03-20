@@ -71,7 +71,7 @@ require ("../db.php");
 
 <body>
 	<div id="container">
-					<center><h1>Welcome Administrator</h1></center>
+					<center><h1>Welcome Bid Caller</h1></center>
 					<?php 
 					$id = $_GET['id'];
 					?>
@@ -100,7 +100,7 @@ require ("../db.php");
 					"<tr>
                         <td align='center'>".$prod['lastname'].", ".$prod['firstname']."</td>
                         <td>".$prod['biddatetime']."</td>
-                        <td>P".$prod['bidamount']."</td>
+                        <td>Ksh".$prod['bidamount']."</td>
 					</tr>";
 				}
 			?>

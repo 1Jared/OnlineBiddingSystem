@@ -97,7 +97,7 @@ $(document).ready(function () {
 					"<tr>
                         <td align='center'>".$prod['lastname'].", ".$prod['firstname']."</td>
                         <td align='center'>".$prod['biddatetime']."</td>
-                        <td align='center'>P".$prod['bidamount']."</td>
+                        <td align='center'>Ksh".$prod['bidamount']."</td>
 					</tr>";
 				}
 			?>

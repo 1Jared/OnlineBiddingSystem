@@ -1,5 +1,4 @@
 ONLINE BIDDING SYSTEM - PHP
-** THANKS TO Fritz Segotier **
 
 **ADMIN's LOGIN DETAIL**  (localhost/OnlineBiddingSystem/administrator)
 
@@ -22,16 +21,3 @@ DON'T FORGET TO CREATE A DATABASE NAMING "biddingsystemdb" AND IMPORT THE SQL FI
 WITHOUT THE DATABASE THE PROJECT WON'T RUN.
 
 >>The Database File is inside "DATABASE" folder.
-
-
-***** IF YOU FIND ANY ERRORS OR ANY PROBLEMS RELATED THIS PROGRAM, FEEL FREE TO CONTACT US *****  
-
-
-***** LEAVE A COMMENT IF YOU LOVED OUR WORK *****
-
-
-***** FOR MORE PROJECTS :- https://code-projects.org/ *****
-
-
-
-#THANK YOU FOR DOWNLOADING

@@ -32,7 +32,7 @@
 			<div id="primary_right">
 				<div class="inner">
 					
-					<h1>Welcome Administrator</h1>
+					<h1>Welcome Bid Caller</h1>
 
 
 						<div class="two_third column">
@@ -52,7 +52,7 @@
 								while($row = mysqli_fetch_array($query))
 								{
 								echo "<li>";
-								echo "<a href = 'bidlist.php?id=".$row['productid']."' rel='facebox' title='Product Name: ".$row['prodname']." Regular Price: P".$row['regularprice']." Description: ".$row['prodescription']." Click to view log.'><img src ='images/products/".$row['prodimage']."' width='72' height='72' alt='' ></a>";
+								echo "<a href = 'bidlist.php?id=".$row['productid']."' rel='facebox' title='Product Name: ".$row['prodname']." Regular Price: Ksh".$row['regularprice']." Description: ".$row['prodescription']." Click to view log.'><img src ='images/products/".$row['prodimage']."' width='72' height='72' alt='' ></a>";
 								echo "</li>";
 								}
 							?>

@@ -142,7 +142,7 @@
 							
 							$highestbidder = mysqli_query($con,"SELECT * FROM bidreport WHERE bidamount = '$highbid'")or die(mysqli_error());
 							$highestbiddera = mysqli_fetch_array($highestbidder);
-							$hibidder = $highestbiddera['bidder'];
+							$hibidder = isset($highestbiddera['bidder']);
 							
 							if($_SESSION['logged']=='notactive'||$_SESSION['logged']=='guest'){
 								echo"<span class='blue'><p> Only those who have an activated account can access to this and participate. Please Log-In or Register</p></br><h2>To Activate Account, Open the Database, Go to Member Table, Look for your 'userid' row and check 'Verification' row. Set the value from 'no' to 'yes'</h2></span>";
@@ -160,7 +160,7 @@
 									$con=mysqli_connect('localhost', 'root', '', 'biddingsystemdb');
 								$name = mysqli_query($con,"SELECT * FROM member WHERE memberid = '$hibidder'")or die(mysqli_error());
 								$namea = mysqli_fetch_array($name);
-								echo $namea['userid'];?>
+								echo isset($namea['userid']);?>
 								<?php echo"</span><br /><br />
 								&nbsp&nbsp Time Left to Bid: <span class='blue'>";?>
 								<?php

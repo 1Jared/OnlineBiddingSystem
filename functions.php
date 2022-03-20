@@ -84,16 +84,16 @@ function cats(){
 			}
 			$highestbidder = mysqli_query($con,"SELECT * FROM bidreport WHERE bidamount = '$highbid'")or die(mysqli_error());
 			$highestbiddera = mysqli_fetch_array($highestbidder);
-			$hibidder = $highestbiddera['bidder'];
+			$hibidder = isset($highestbiddera['bidder']);
 			$name = mysqli_query($con,"SELECT * FROM member WHERE memberid = '$hibidder'")or die(mysqli_error());
 			$namea = mysqli_fetch_array($name);
-			$highname = $namea['userid'];
+			$highname =isset($namea['userid']) ;
 			echo "<div class='prod_box'>";
 				echo "<div class='top_prod_box'></div>";
 				echo "<div class='center_prod_box'>";
 					echo "<div class='product_title'><a href='details.php?id=".$row['productid']."'>".$row['prodname']."</a></div>";
 				echo "<div class='product_img'><a href='details.php?id=".$row['productid']."'><img src='administrator/images/products/".$row['prodimage']."' width='94' height='92' alt='' border='0' /></a></div>";
-				echo "<div class='prod_price'><span>Start Bid at: </span> <span class='price'>P ".$row['startingbid']."</span><br />
+				echo "<div class='prod_price'><span>Start Bid at: </span> <span class='price'>Ksh ".$row['startingbid']."</span><br />
 				<span>Highest Bidder: </span> <span class='price'>".$highname."</span>
 				</div>";
 			echo "</div>";
@@ -137,10 +137,10 @@ function cats(){
 			}
 			$highestbidder = mysqli_query($con,"SELECT * FROM bidreport WHERE bidamount = '$highbid'")or die(mysqli_error($con));
 			$highestbiddera = mysqli_fetch_array($highestbidder);
-			$hibidder = $highestbiddera['bidder'];
+			$hibidder = isset($highestbiddera['bidder']);
 			$name = mysqli_query($con,"SELECT * FROM member WHERE memberid = '$hibidder'")or die(mysqli_error($con));
 			$namea = mysqli_fetch_array($name);
-			$highname = $namea['userid'];
+			$highname = isset($namea['userid']);
 			echo "<div class='prod_box'>";
 				echo "<div class='top_prod_box'></div>";
 				echo "<div class='center_prod_box'>";

@@ -54,7 +54,7 @@ error_reporting(E_ALL);
       <div class="title_box">Announcements</div>
       <div class="border_box">
         <input type="text" name="newsletter" class="newsletter_input" value="your email"/>
-        <a href="http://all-free-download.com/free-website-templates/" class="join">join</a> </div>
+        <a href="login.php" class="join">join</a> </div>
       <div class="banner_adds"> <a href="#"><img src="images/bann2.jpg" alt="" border="0" /></a> </div>
     </div>
     <!-- end of left content -->

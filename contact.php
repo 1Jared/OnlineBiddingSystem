@@ -60,7 +60,7 @@
 		<div class="prod_box_big">
 			<div class="top_prod_box_big"></div>
 			<div class="center_prod_box_big">
-							<div class="welc"><center>Welcome to the Bidding Zone</center></div>
+							<div class="welc"><center>Welcome to Online Bidding System</center></div>
 							<div class="welcsub"><center><p>Welcome, your account is not yet completely activated. You are required to complete this steps in order to participate in bidding activities on this site.<p></center></div>
 			<div class='logreg'>
 					<div class="loginb">
@@ -123,12 +123,12 @@
 		  <div class="prod_box_big">
 			<div class="top_prod_box_big"></div>
 			<div class="center_prod_box_big">
-							<div class="welc"><center>Company's Organizational Chart</center></div>
+							<div class="welc"><center>Company</center></div>
 							<div class='logreg'>
 					<div class="loginb">
 						<div class="top_prod_box"></div>
 						<div class="center_prod_box">
-						  <div class="product_img"><a><img src="images/chart.jpg" alt="" border="0" /></a></div>
+						  <div class="product_img"><a><img src="images/egertonlogo.jpg" alt="" border="0" width="400" /></a></div>
 						</div>
 					</div>
 					
